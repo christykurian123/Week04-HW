@@ -1,0 +1,41 @@
+    body, html {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+      .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .square {
+      width: 400px;
+      height: 400px;
+      background-color: #e8ec6a;
+      color: black;
+      font-size: 100px;
+      display: flex;
+      font-family: sans-serif;
+      justify-content: center;
+      align-items: center;
+    margin-bottom: 20px;
+      border-radius: 12px;
+    }
+
+      .buttons {
+      display: flex;
+      gap: 80px;
+    }
+
+ button {
+      font-size: 39px;
+      padding: 8px 20px;
+      cursor: pointer;
+      border: none;
+      border-radius: 6px;
+      background-color: #3ea6b8;
+      color: rgb(240, 234, 234);
+    }
